@@ -152,6 +152,15 @@ input::-webkit-input-placeholder {
     font-size: 1.875rem;
 }
 
+.span-form {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #C07212;
+    text-align: center;
+    margin-top: 1rem;
+}
+
 /*********************FORM CONTAINER STYLE END*********************/
 
 /*********************SECTION STYLE END****************************/
