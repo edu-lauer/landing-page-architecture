@@ -7,21 +7,23 @@
 header {
     background: #303030;
     height: 30rem;
+    width: 100%;
     color: white;
     font-family: 'Inter';
-    padding-left: 3.875rem;
 }
 
 header h1 {
     font-weight: 600;
     font-size: 3.75rem;
     padding-top: 12.875rem;
+    padding-left: 3.875rem;
 }
 
 header h5 {
     font-weight: 500;
     font-size: 1.25rem;
     padding-top: 1.25rem;
+    padding-left: 3.875rem;
 }
 
 /*********************HEADER STYLE END*******************************/
@@ -33,6 +35,7 @@ header h5 {
 .info-container {
     background-color: #F9F9F9;
     height: 14.313rem;
+    width: 100%;
     font-family: 'Inter';
 }
 
@@ -61,16 +64,14 @@ header h5 {
     display: grid;
     grid-auto-flow: column;
     font-family: 'Inter';
-}
-
-.main-container-texto {
-    padding-left: 4.813rem;
+    width: 100%;
 }
 
 .main-container-texto h2 {
     font-weight: 500;
     font-size: 2.5rem;
     padding-top: 16rem;
+    padding-left: 4.813rem;
 }
 
 .main-container-texto p {
@@ -81,6 +82,7 @@ header h5 {
     height: 10.063rem;
     padding-top: 3rem;
     padding-bottom: 19.625rem;
+    padding-left: 4.813rem;
 }
 
 .main-container-img {
@@ -101,6 +103,7 @@ header h5 {
 .form-container {
     background: #303030;
     height: 39.875rem;
+    width: 100%;
 }
 
 .form-container form {
@@ -150,6 +153,7 @@ input::-webkit-input-placeholder {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 1.875rem;
+    border: none;
 }
 
 .span-form {
@@ -164,3 +168,497 @@ input::-webkit-input-placeholder {
 /*********************FORM CONTAINER STYLE END*********************/
 
 /*********************SECTION STYLE END****************************/
+
+
+/*****************************************************************/
+/*********************RESPONSIVIDADE******************************/
+/*****************************************************************/
+
+
+@media screen and (max-width: 1024px) {
+
+    /*********************HEADER STYLE BEGIN*********************/
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    /*********************HEADER STYLE END***********************/
+
+
+
+    /*********************SECTION STYLE BEGIN********************/
+    /*********************INFO CONTAINER STYLE BEGIN*************/
+    .info-container ul li h3 {
+        font-size: 2rem;
+    }
+
+    .info-container ul li p {
+        font-size: 1rem;
+    }
+
+    /*********************INFO CONTAINER STYLE END***************/
+
+
+    /*********************MAIN CONTAINER STYLE BEGIN*************/
+    .main-container-texto {
+        width: 60%;
+    }
+
+    .main-container-texto h2 {
+        width: 500px;
+        font-size: 1.5rem;
+        padding-left: 4.5rem;
+        padding-top: 10rem;
+    }
+
+    .main-container-texto p {
+        font-size: 1rem;
+        padding-left: 4.5rem;
+        padding-bottom: 0;
+        width: 26rem;
+        line-height: 1.5rem;
+    }
+
+    .main-container-img img {
+        width: 21.875rem;
+        padding: 0;
+    }
+
+    /*********************MAIN CONTAINER STYLE EDN***************/
+
+    /*********************FORM CONTAINER STYLE BEGIN*************/
+    .form-container {
+        height: 30rem;
+    }
+
+    .form-container h3 {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .form-container form input {
+        width: 21rem;
+        height: 2.5rem;
+        padding-left: 1.3rem;
+        font-size: 1rem;
+    }
+
+    .form-btn {
+        width: 11rem;
+        height: 2.5rem;
+        font-size: 1rem;
+        border: none;
+    }
+
+    .span-form {
+        font-size: 0.9rem;
+    }
+
+    /*********************FORM CONTAINER STYLE END***************/
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    /*********************HEADER STYLE BEGIN*********************/
+    header h1 {
+        font-size: 2rem;
+    }
+
+    /*********************HEADER STYLE END***********************/
+
+
+
+    /*********************SECTION STYLE BEGIN********************/
+    /*********************INFO CONTAINER STYLE BEGIN*************/
+    .info-container ul li h3 {
+        font-size: 1.5rem;
+    }
+
+    .info-container ul li p {
+        font-size: 0.8rem;
+    }
+
+    /*********************INFO CONTAINER STYLE END***************/
+
+
+    /*********************MAIN CONTAINER STYLE BEGIN*************/
+
+    .main-container-texto h2 {
+        width: 300px;
+        font-size: 1.2rem;
+    }
+
+    .main-container-texto p {
+        font-size: 1rem;
+        width: 300px;
+    }
+
+    .main-container-img img {
+        width: 20rem;
+    }
+
+    /*********************MAIN CONTAINER STYLE EDN***************/
+
+    /*********************FORM CONTAINER STYLE BEGIN*************/
+    .form-container {
+        height: 25rem;
+    }
+
+    .form-container h3 {
+        font-size: 1.3rem;
+        width: 100%;
+    }
+
+    .form-container form input {
+        width: 15rem;
+        height: 2rem;
+        padding-left: 1rem;
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .form-btn {
+        width: 8rem;
+        height: 2rem;
+        font-size: 0.7rem;
+    }
+
+    .span-form {
+        font-size: 0.7rem;
+    }
+
+    /*********************FORM CONTAINER STYLE END***************/
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 426px) {
+
+    header {
+        height: 15rem;
+    }
+
+    /*********************HEADER STYLE BEGIN*********************/
+    header h1 {
+        font-size: 1.4rem;
+        padding-top: 7rem;
+        padding-left: 1rem;
+    }
+
+    header h5 {
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+
+    /*********************HEADER STYLE END***********************/
+
+
+
+    /*********************SECTION STYLE BEGIN********************/
+    /*********************INFO CONTAINER STYLE BEGIN*************/
+    .info-container {
+        height: 6rem;
+    }
+
+    .info-container ul {
+        padding-top: 2rem;
+        padding-left: 0;
+    }
+
+    .info-container ul li h3 {
+        font-size: 1rem;
+    }
+
+    .info-container ul li p {
+        font-size: 0.5rem;
+    }
+
+    /*********************INFO CONTAINER STYLE END***************/
+
+
+    /*********************MAIN CONTAINER STYLE BEGIN*************/
+
+    .main-container-texto h2 {
+        width: 180px;
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-top: 2rem;
+    }
+
+    .main-container-texto p {
+        font-size: 0.7rem;
+        width: 180px;
+        padding-left: 1rem;
+        padding-top: 2rem;
+        line-height: 0.9rem;
+    }
+
+    .main-container-img img {
+        width: 13rem;
+        height: 18rem;
+    }
+
+    /*********************MAIN CONTAINER STYLE EDN***************/
+
+    /*********************FORM CONTAINER STYLE BEGIN*************/
+    .form-container {
+        height: 17rem;
+    }
+
+    .form-container h3 {
+        font-size: 1rem;
+        width: 100%;
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .form-container form input {
+        width: 13rem;
+        height: 1.5rem;
+        padding-left: 0.8rem;
+        font-size: 0.6rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .form-btn {
+        width: 7rem;
+        height: 1.5rem;
+        font-size: 0.6rem;
+        border-radius: 0.2rem;
+    }
+
+    .span-form {
+        font-size: 0.6rem;
+    }
+
+    /*********************FORM CONTAINER STYLE END***************/
+
+
+
+
+
+
+
+    @media screen and (max-width: 376px) {
+
+        header {
+            height: 10rem;
+        }
+
+        /*********************HEADER STYLE BEGIN*********************/
+        header h1 {
+            font-size: 1.1rem;
+            padding-top: 3.5rem;
+            padding-left: 1rem;
+        }
+
+        header h5 {
+            font-size: 0.7rem;
+            padding-left: 1rem;
+        }
+
+        /*********************HEADER STYLE END***********************/
+
+
+
+        /*********************SECTION STYLE BEGIN********************/
+        /*********************INFO CONTAINER STYLE BEGIN*************/
+        .info-container {
+            height: 5rem;
+        }
+
+        .info-container ul {
+            padding-top: 1.5rem;
+            padding-left: 0;
+        }
+
+        .info-container ul li h3 {
+            font-size: 0.8rem;
+        }
+
+        .info-container ul li p {
+            font-size: 0.5rem;
+        }
+
+        /*********************INFO CONTAINER STYLE END***************/
+
+
+        /*********************MAIN CONTAINER STYLE BEGIN*************/
+
+        .main-container-texto h2 {
+            width: 120px;
+            font-size: 0.9rem;
+            padding-left: 1rem;
+            padding-top: 2rem;
+        }
+
+        .main-container-texto p {
+            font-size: 0.5rem;
+            width: 120px;
+            padding-left: 1rem;
+            padding-top: 1rem;
+            line-height: 0.7rem;
+        }
+
+        .main-container-img img {
+            width: 13rem;
+            height: 18rem;
+        }
+
+        /*********************MAIN CONTAINER STYLE EDN***************/
+
+        /*********************FORM CONTAINER STYLE BEGIN*************/
+        .form-container {
+            height: 15rem;
+        }
+
+        .form-container h3 {
+            font-size: 0.8rem;
+            padding-top: 2rem;
+            padding-bottom: 1.5rem;
+        }
+
+        .form-container form input {
+            width: 10rem;
+            height: 1rem;
+            padding-left: 0.6rem;
+            font-size: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .form-btn {
+            width: 5rem;
+            height: 1.2rem;
+            font-size: 0.5rem;
+            border-radius: 0.2rem;
+        }
+
+        .span-form {
+            font-size: 0.5rem;
+        }
+
+        /*********************FORM CONTAINER STYLE END***************/
+    }
+
+
+
+
+
+
+
+    @media screen and (max-width: 320px) {
+
+        header {
+            height: 10rem;
+        }
+
+        /*********************HEADER STYLE BEGIN*********************/
+        header h1 {
+            font-size: 1rem;
+            padding-top: 3.5rem;
+            padding-left: 0.5rem;
+        }
+
+        header h5 {
+            font-size: 0.6rem;
+            padding-left: 0.5rem;
+        }
+
+        /*********************HEADER STYLE END***********************/
+
+
+
+        /*********************SECTION STYLE BEGIN********************/
+        /*********************INFO CONTAINER STYLE BEGIN*************/
+        .info-container {
+            height: 4rem;
+        }
+
+        .info-container ul {
+            padding-top: 1.2rem;
+        }
+
+        .info-container ul li h3 {
+            font-size: 0.6rem;
+        }
+
+        .info-container ul li p {
+            font-size: 0.4rem;
+        }
+
+        /*********************INFO CONTAINER STYLE END***************/
+
+
+        /*********************MAIN CONTAINER STYLE BEGIN*************/
+
+        .main-container-texto h2 {
+            width: 100px;
+            font-size: 0.7rem;
+            padding-left: 1rem;
+            padding-top: 2rem;
+        }
+
+        .main-container-texto p {
+            font-size: 0.4rem;
+            width: 100px;
+            padding-left: 1rem;
+            padding-top: 1rem;
+            line-height: 0.5rem;
+        }
+
+        .main-container-img img {
+            width: 10rem;
+            height: 15rem;
+        }
+
+        /*********************MAIN CONTAINER STYLE EDN***************/
+
+        /*********************FORM CONTAINER STYLE BEGIN*************/
+        .form-container {
+            height: 12rem;
+        }
+
+        .form-container h3 {
+            font-size: 0.7rem;
+            padding-top: 1rem;
+            padding-bottom: 1.2rem;
+        }
+
+        .form-container form input {
+            width: 8rem;
+            height: 0.8rem;
+            padding-left: 0.5rem;
+            font-size: 0.4rem;
+            margin-bottom: 1.3rem;
+        }
+
+        .form-btn {
+            width: 4rem;
+            height: 1rem;
+            font-size: 0.4rem;
+            border-radius: 0.2rem;
+        }
+
+        .span-form {
+            font-size: 0.4rem;
+        }
+
+        /*********************FORM CONTAINER STYLE END***************/
+    }
+
+}
