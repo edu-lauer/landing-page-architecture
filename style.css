@@ -156,6 +156,12 @@ input::-webkit-input-placeholder {
     border: none;
 }
 
+.form-btn:hover {
+    cursor: pointer;
+    background-color: #e5993b;
+    transition: 0.5s;
+}
+
 .span-form {
     font-family: 'Raleway';
     font-weight: 500;
